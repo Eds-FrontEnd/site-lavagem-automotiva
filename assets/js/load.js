@@ -1,7 +1,6 @@
 //Loading
 window.onload = () => {
-    var conterCarga = document.getElementById("conter_carga");
-    conterCarga.style.visibility = "hidden";
-    conterCarga.style.opacity = "0";
+    document.getElementById("conter_carga").style.visibility = "hidden";
+    document.getElementById("conter_carga").style.opacity = "0";
 };
   
